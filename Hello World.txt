@@ -1,0 +1,14 @@
+#%RAML 1.0
+title: hello-world-api
+/vijay-dev:
+  get:
+    body:
+      application/json:
+        type: !include /dataTypes/req-dataType.raml
+        example: !include /example/req-example.raml
+    responses:
+     200:
+       body:
+         application/json:
+           type: !include /dataTypes/res-dataType.raml
+           example: !include /example/res-example.raml
