@@ -12,3 +12,4 @@ title: hello-world-api
          application/json:
            type: !include /dataTypes/res-dataType.raml
            example: !include /example/res-example.raml
+hello world
